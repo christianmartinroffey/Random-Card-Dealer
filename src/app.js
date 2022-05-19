@@ -11,3 +11,10 @@ window.onload = function() {
 };
 
 // some changes
+
+// here is where you can generate a new card on click
+//needs updating
+
+document.getElementById("new-card").addEventListener("click", function() {
+  alert("Give me a new card");
+});
