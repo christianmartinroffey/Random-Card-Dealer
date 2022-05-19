@@ -4,19 +4,36 @@ import "./style.css";
 
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
+//suits in text
+const spades = "&spades";
+const clubs = "&clubs";
+const hearts = "&hearts";
+const diamonds = "&diams";
 
-const deckNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K"];
-const deckSuit =
-  ("https://media.istockphoto.com/vectors/heart-symbol-of-love-and-valentines-day-flat-red-icon-isolated-on-vector-id1128400054?b=1&k=20&m=1128400054&s=612x612&w=0&h=TeuKynPXDifmp5MUm1MsnM4wpmInK80tVBSlv3z3dtc=",
-  "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Card_diamond.svg/1200px-Card_diamond.svg.png",
-  "https://cdn.pixabay.com/photo/2012/05/07/18/37/spade-48943_960_720.png",
-  "https://cdn.pixabay.com/photo/2012/04/13/20/38/clubs-33561_960_720.png");
+const deckNumbers = [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "J",
+  "Q",
+  "K"
+];
+const deckSuit = [0, 1, 2, 3];
 // onload needs to load a new card number and suit
 //add in timer of 10s
 window.onload = function() {
   //write your code here
   console.log();
 };
+
+const generateRandom = Math.floor(Math.random() * deckNumbers.length);
 
 const generateCard = () => {};
 
@@ -38,3 +55,5 @@ document.getElementById("new-card").addEventListener("click", function() {
 
   //add .value(two functions)
 });
+
+// joker - set it to sdisplay when the sum hit X number
