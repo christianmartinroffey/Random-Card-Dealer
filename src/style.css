@@ -8,7 +8,7 @@
   margin-right: 200px;
 }
 
-/*h1 {
+.text-xl {
   font-size: 200px;
 }
 
@@ -20,7 +20,6 @@ h2 {
   font-size: 200px;
 }
 
-.second-suit {
-  transform: rotate(-90deg);
+#second-suit {
+  transform: rotate(-180deg);
 }
-*/
