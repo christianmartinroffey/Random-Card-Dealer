@@ -35,4 +35,6 @@ const generateSuit = () => {};
 
 document.getElementById("new-card").addEventListener("click", function() {
   alert("Give me a new card");
+
+  //add .value(two functions)
 });
