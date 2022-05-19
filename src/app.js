@@ -18,6 +18,9 @@ window.onload = function() {
   console.log();
 };
 
+const generateCard = () => {};
+
+const generateSuit = () => {};
 // need to randomly generate a number 1-13
 //optional is to add a joker
 // random function for card number here
