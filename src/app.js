@@ -107,5 +107,12 @@ numbersToSigns();
 window.onload = function() {
   newCard();
 
+//reload automatically after 10s
+setTimeout(function() {
+  location.reload();
+}, 10000);
+
 document.getElementById("new-card").addEventListener("click", (newCard));
 };
+
+
