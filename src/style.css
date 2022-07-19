@@ -1,22 +1,42 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
-#card {
-  margin-left: 200px;
-  margin-right: 200px;
+
+
+.card {  
+  position: relative;
+  width: 105px;
+  height: 150px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
 }
 
-.text-xl {
-  font-size: 200px;
+.card-value-suit {
+  display: inline-block;
+  position: absolute;
+}
+.card-value-suit.top {
+  top: 5px;
+  left: 5px;
+}
+.card-value-suit.bot {
+  transform: rotate(180deg);
+  bottom: 5px;
+  right: 5px;
+}
+.card-suit {
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 25%;
 }
 
-.card {
-  border-radius: 20px;
+.card.spades,
+.card.clubs {
+  color: black;
 }
-
-h2 {
-  font-size: 200px;
-}
-
-#second-suit {
-  transform: rotate(-180deg);
+.card.hearts,
+.card.diamonds {
+  color: red;
 }
